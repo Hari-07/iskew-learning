@@ -1,16 +1,26 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
+    <NavMenu />
     <router-view/>
   </div>
 </template>
 
+<script>
+import NavMenu from '@/components/NavMenu.vue'
+
+export default {
+  name:'App',
+  components:{
+    NavMenu
+  }
+}
+</script>
+
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family:'Open Sans', Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
