@@ -35,7 +35,6 @@ export default {
 	background: #FAFAFA;
 	height: 25vw;
 	border-radius: 11px;
-	border: inset 1px solid #111111;
 	box-sizing: border-box;
 	box-shadow: -2px 2px 8px rgba(0, 0, 0, 0.25);
 	background-image: url('../../assets/CardBG.svg');
