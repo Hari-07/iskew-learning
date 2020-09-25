@@ -1,23 +1,33 @@
 <template>
-	<div id="eventlistentry">
-		<b-button block class="schedulebutton" v-b-toggle href="#collap">
+	<div id="eventlistentry" @click="toggled = !toggled">
+		<div class="schedulebutton">
 			<div class="scheduledeets">
 				<div class="scheduledate">{{ date }} </div>
 				<div class="schedulemonth">{{ month }}</div>
 			</div>
 			<div class="eventdetails">
 				<div class="eventtitle">{{ title }}</div>
-				<div class="eventtrainer"><strong>Trainer</strong>: {{ trainer }}</div>
+				<div class="eventsubtext">
+					<div class="eventtrainer">Trainer<strong>: {{ trainer }}</strong></div>
+					<div class="eventtiming">Timing<strong>:{{ time }} </strong></div>
+				</div>
 			</div>
-			<div class="stateIcon">
+			<div class="stateIcon" :class={open:toggled}>
 				<b-icon-chevron-down></b-icon-chevron-down>
 			</div>
-		</b-button>
-		<b-collapse id="collap">
-			<b-card>
-				Description
-			</b-card>
-		</b-collapse>
+		</div>
+		<div class="schedulecontent" :class={open:toggled}>
+			<div class="schedulecontentdescription">
+				Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta hic eum magnam quam eos perspiciatis veritatis, natus fugiat, dignissimos enim itaque placeat aperiam sapiente ut nobis vero voluptatem, illo pariatur!
+			</div>
+			<div class="schedulecontentregister">
+				<a :href="formLink">
+					<button class="schedulecontentbutton">
+						Join now
+					</button>
+				</a>
+			</div>
+		</div>
 	</div>
 </template>
 
@@ -32,28 +42,39 @@ export default {
 		date: String,
 		month: String,
 		title: String,
-		trainer: String
+		trainer: String,
+		time: String,
+		formLink: String
 	},
 	components: {
 		BIconChevronDown
 	},
+	data(){
+		return {
+			toggled: true
+		}
+	}
 }
 </script>
 
 <style>
 
-.schedulebutton{
-	background: none;
-	color:black;
-	display: flex;
-	border:none;
+#eventlistentry {
 	border-bottom: 2px solid #202020;
-	border-radius: 0;
 }
 
-.schedulebutton:hover,:active,:target,:visited,:focus {
+.schedulebutton{
 	color:black;
-	background: none;
+	display: flex;
+	margin-bottom:10px;
+}
+
+.schedulebutton:hover {
+	cursor:pointer;
+}
+.schedulebutton:focus,:active{
+	outline: none;
+	border:none;
 }
 
 .scheduledeets {
@@ -64,7 +85,7 @@ export default {
 .scheduledate {
 	font-weight:bold;
 	font-size: 3vw;
-	line-height: 2.5vw;
+	line-height: 1;
 }
 
 .schedulemonth{
@@ -81,12 +102,20 @@ export default {
 }
 
 .eventtitle{
-	font-weight:bold;
 	font-size: 2.5vw;
-	line-height: 2.5vw;
+	line-height: 1.2;
+}
+
+.eventsubtext {
+	display: flex;
+	margin-top:13px;
 }
 
 .eventtrainer{
+	font-size: 1.15vw;
+}
+.eventtiming {
+	padding-left:15vw;
 	font-size: 1.15vw;
 }
 
@@ -94,5 +123,69 @@ export default {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	font-size: 1.6vw;
+}
+.stateIcon.open{
+	transform: scaleY(-1);
+}
+
+.schedulecontent {
+	font-size: 1vw;
+	text-align: left;
+	padding-left: 5.70vw;
+	margin-top:20px;
+	color:#4A4A4A;
+	display: flex;
+	flex-direction: column;
+	margin-bottom:20px;
+	display: none;
+}
+.schedulecontent.open{
+	display: block;
+}
+
+.schedulecontentregister{
+	text-align: right;
+}
+
+.schedulecontentbutton{
+	padding: 0.6vw 2.4vw;
+	background: #111111;
+	color: white;
+	border-radius: 8px;
+	outline: none;
+	border:none;
+}
+
+@media (max-width: 576px){
+	.scheduledate {
+		font-size: 7vw;
+	}
+	.schedulemonth{
+		font-size: 3.2vw;
+	}
+	.eventtitle{
+		font-size:5vw
+	}
+	.eventtrainer{
+		font-size: 2.5vw;
+	}
+	.eventtiming {
+		padding-left:2.1vw;
+		font-size: 2.5vw;
+	}
+	.schedulecontent{
+		font-size: 2.5vw;
+		padding-left: 2vw;
+	}
+	.schedulecontentregister{
+		text-align: center;
+	}
+	.schedulecontentbutton{
+		width: 100%;
+		padding:6px 0 ;
+		border-radius: 11px;
+		margin-top:10px;
+	}
 }
 </style>

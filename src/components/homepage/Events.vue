@@ -17,7 +17,7 @@
 				iSkew Event Schedule
 			</div>	
 			<div class="eventlistitems">
-				<EventListEntry index=0 date=27 month="SEP" title="Time Management and Effective Goal Setting" trainer="Renjit Keshav"/>
+				<EventListEntry index=0 date=27 month="SEP" title="Time Management and Effective Goal Setting" trainer="Renjit Keshav" time="05:00 PM to 06:00 PM" formLink="https://forms.gle/tUarmAbB9h7Y6SDo7"/>
 			</div>
 		</div>
 	</div>
