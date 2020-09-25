@@ -21,6 +21,8 @@ export default {
 	name:'EventCard',
 	props:{
 		programID:String,
+		programDetails:String,
+		programDetails2:String
 	}
 }
 </script>
@@ -58,9 +60,21 @@ export default {
 	box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
 }
 .graphic{
-	background: red;
 	height:46%;
 	margin-left: 56%;
+}
+
+.graphic.apt{
+	background-image: url('../../assets/Aptitude.svg');
+	background-size: 140% 100%;
+}
+.graphic.tech{
+	background-image: url('../../assets/Coding.svg');
+	background-size: 140% 100%;
+}
+.graphic.aptech{
+	background-image: url('../../assets/COMBO.svg');
+	background-size: 140% 100%;
 }
 
 .programtitle{

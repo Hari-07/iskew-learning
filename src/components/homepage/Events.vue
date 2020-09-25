@@ -8,7 +8,7 @@
 				<b-row>
 					<b-col class="eventcard" sm="4"><EventCard programID="apt" /></b-col>
 					<b-col class="eventcard" sm="4"><EventCard programID="tech" /></b-col>
-					<b-col class="eventcard" sm="4"><EventCard programID="aptTech" /></b-col>
+					<b-col class="eventcard" sm="4"><EventCard programID="aptech" /></b-col>
 				</b-row>
 			</b-container>
 		</div>
