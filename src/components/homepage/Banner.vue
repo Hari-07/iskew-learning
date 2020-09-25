@@ -24,10 +24,9 @@ export default {
 #banner {
 	display: flex;
 	position: relative;
-	overflow: hidden;
 	background-image: url('../../assets/GreyMatt.jpg');
 	background-repeat: repeat;
-	background-clip: padding-box;
+	background-origin: border-box;
 }
 
 .bannerimage {

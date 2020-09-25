@@ -24,9 +24,6 @@ export default {
 
 
 <style scoped>
-.nav{
-	height: 100px;
-}
 
 .brand-logo{
 	height:60px;

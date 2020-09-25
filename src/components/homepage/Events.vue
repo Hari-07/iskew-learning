@@ -6,9 +6,9 @@
 		<div class="eventcards">
 			<b-container>
 				<b-row>
-					<b-col class="eventcard" md="4"><EventCard /></b-col>
-					<b-col class="eventcard" md="4"><EventCard /></b-col>
-					<b-col class="eventcard" md="4"><EventCard /></b-col>
+					<b-col class="eventcard" sm="4"><EventCard /></b-col>
+					<b-col class="eventcard" sm="4"><EventCard /></b-col>
+					<b-col class="eventcard" sm="4"><EventCard /></b-col>
 				</b-row>
 			</b-container>
 		</div>
@@ -66,5 +66,28 @@ export default {
 	border: 0.2px solid black;
 	padding: 1vw 3vw;
 	border-radius: 11px;
+}
+
+@media (max-width: 576px){
+	#events {
+		width:100%;
+		padding: 5% 8%;
+	}
+
+	.eventheader {
+		text-align: left;
+		width: 100%;
+		font-size: 5vw;
+		font-weight: bold;
+	}
+
+	.eventlisttitle {
+		text-align: left;
+		width: 100%;
+		font-size: 5vw;
+		font-weight: bold;
+		margin-top:20px;
+		margin-bottom: 10px;
+	}
 }
 </style>

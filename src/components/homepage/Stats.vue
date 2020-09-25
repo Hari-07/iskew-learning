@@ -22,26 +22,39 @@ export default {
 </script>
 
 <style>
-	.bluestrip{
-		background: #0089E2;
-		display: flex;
-	}
-	
+.bluestrip{
+	background: #0089E2;
+	display: flex;
+}
+
+.stat{
+	width: 100%;
+	padding: 30px 0;
+}
+
+.statvalue{
+	font-weight: bold;
+	color: white;
+	font-size: 3vw;
+}
+
+.stattag{
+	color: #111111;
+	font-weight: bold;
+	font-size: 1.5vw;
+}
+
+@media (max-width: 576px){
 	.stat{
-		width: 100%;
-		max-width: 1980px;
-		padding: 30px 0;
+		padding:10px 0;
 	}
 
 	.statvalue{
-		font-weight: bold;
-		color: white;
-		font-size: 3vw;
+		font-size: 5.5vw;
+	}
+	.stattag{
+		font-size: 2.5vw;
 	}
 
-	.stattag{
-		color: #111111;
-		font-weight: bold;
-		font-size: 1.5vw;
-	}
+}
 </style>
