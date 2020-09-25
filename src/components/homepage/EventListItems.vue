@@ -15,7 +15,7 @@
 		</b-button>
 		<b-collapse id="collap">
 			<b-card>
-				Hello world!
+				Description
 			</b-card>
 		</b-collapse>
 	</div>
