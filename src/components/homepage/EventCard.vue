@@ -1,10 +1,7 @@
 <template>
 	<div id="card">
-		<div class="cardImage">
-			asd
-		</div>
-		<div class="cardTitle">
-			asd
+		<div id="card2">
+
 		</div>
 	</div>
 </template>
@@ -18,13 +15,25 @@ export default {
 <style>
 
 #card {
+	background: #FAFAFA;
 	height: 25vw;
-	background: lightgray;
-	flex:display;
-	flex-direction: column;
 	border-radius: 11px;
+	border: inset 1px solid #111111;
+	box-sizing: border-box;
+	box-shadow: -2px 2px 8px rgba(0, 0, 0, 0.25);
+	background-image: url('../../assets/CardBG.svg');
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position: bottom right;
 }
-
+#card2{
+	height: 100%;
+	width: 100%;
+	background-image: url('../../assets/CardBGFlip.svg');
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position: top left;
+}
 .cardImage{
 	height: 65%;
 }
