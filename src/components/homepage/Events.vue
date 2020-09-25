@@ -6,9 +6,9 @@
 		<div class="eventcards">
 			<b-container>
 				<b-row>
-					<b-col class="eventcard" sm="4"><EventCard /></b-col>
-					<b-col class="eventcard" sm="4"><EventCard /></b-col>
-					<b-col class="eventcard" sm="4"><EventCard /></b-col>
+					<b-col class="eventcard" sm="4"><EventCard programID="apt" /></b-col>
+					<b-col class="eventcard" sm="4"><EventCard programID="tech" /></b-col>
+					<b-col class="eventcard" sm="4"><EventCard programID="aptTech" /></b-col>
 				</b-row>
 			</b-container>
 		</div>
@@ -63,9 +63,10 @@ export default {
 }
 
 .eventlistitems {
-	border: 0.2px solid black;
+	border: 0.2px solid rgba(0, 0, 0, 0.2);
 	padding: 1vw 3vw;
-	border-radius: 11px;
+	border-radius: 6px;
+	box-shadow: 4px 4px 20px 2px rgba(0, 0, 0, 0.05);
 }
 
 @media (max-width: 576px){

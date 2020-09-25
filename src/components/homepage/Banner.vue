@@ -27,6 +27,7 @@ export default {
 	background-image: url('../../assets/GreyMatt.jpg');
 	background-repeat: repeat;
 	background-origin: border-box;
+	background-size: cover;
 }
 
 .bannerimage {
