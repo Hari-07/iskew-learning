@@ -6,9 +6,9 @@
 		<div class="eventcards">
 			<b-container>
 				<b-row>
-					<b-col class="eventcard" sm="4"><EventCard programID="apt" /></b-col>
-					<b-col class="eventcard" sm="4"><EventCard programID="tech" /></b-col>
-					<b-col class="eventcard" sm="4"><EventCard programID="aptech" /></b-col>
+					<b-col class="eventcard" sm="4"><EventCard formLink="" programID="apt" programDetails="12 Aptitude"/></b-col>
+					<b-col class="eventcard" sm="4"><EventCard formLink="" programID="tech" programDetails="3 Technical"/></b-col>
+					<b-col class="eventcard" sm="4"><EventCard formLink="" programID="aptech" programDetails="15 Paper Combo"/></b-col>
 				</b-row>
 			</b-container>
 		</div>

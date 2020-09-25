@@ -4,13 +4,15 @@
 			<div class="graphic" :class="programID">
 			</div>
 			<div class="programtitle">
-				<span class="programhl">12 Aptitude</span> <br>
+				<span class="programhl">{{ programDetails }}</span> <br>
 				Test Series
 			</div>
 			<div class="enrollbuttoncard">
-				<button class="cardbutton">
-					Buy Now
-				</button>
+				<a :href="formLink">
+					<button class="cardbutton">
+						Buy Now
+					</button>
+				</a>
 			</div>
 		</div>
 	</div>
@@ -22,7 +24,7 @@ export default {
 	props:{
 		programID:String,
 		programDetails:String,
-		programDetails2:String
+		formLink:String
 	}
 }
 </script>
@@ -40,6 +42,10 @@ export default {
 	background-size: 50%;
 	background-repeat: no-repeat;
 	background-position: bottom right;
+}
+#card:hover {
+	transform: scale(1.02);
+	transition-duration: 300ms;
 }
 #card2{
 	height: 100%;
