@@ -111,6 +111,9 @@ export default {
 	background: #0089E2;
 	color: white;
 }
+.cardbutton:focus {
+	outline: none;
+}
 
 @media (max-width: 576px){
 	#card {
