@@ -12,8 +12,8 @@
 								About iSkew
 							</div>
 							<div class="contenttext">
-								Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit architecto voluptates cum dolores sapiente officiis sit vitae perspiciatis sed, est, expedita dolore. Odio commodi maiores dolore praesentium deserunt nostrum rem?
-								Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit architecto voluptates cum dolores sapiente officiis sit vitae perspiciatis sed
+								iSkew started off as an online extension of the parent concept - Insight Job Guru, founded in 2008, which is a consortium of experts from the Training Industry, with over 10 years of proven experience in the fields of Soft Skills Development & Campus Recruitment Training. The consortium focuses on providing training services to Engineering, Arts & MBA colleges. We deliver comprehensive training programmes that address a wide range of requirements and bridge the gap between area of improvement and employability skills. 
+								Through it’s online platform – iSkew Learning, we ensure to bring training programmes available to all on par with quality and content.
 							</div>
 						</div>
 					</b-col>
@@ -21,18 +21,18 @@
 			</b-container>
 		</div>
 		<div class="mobileview">
-			<b-container fluid class="infocontainer">
+			<div class="infocontainer">
 				<img class="infoimage" src="@/assets/RK-2.jpg" alt="portrait photo">
 				<div class="infomember about content">
 					<div class="contentheading">
 						About iSkew
 					</div>
 					<div class="contenttext">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit architecto voluptates cum dolores sapiente officiis sit vitae perspiciatis sed, est, expedita dolore. Odio commodi maiores dolore praesentium deserunt nostrum rem?
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit architecto voluptates cum dolores sapiente officiis sit vitae perspiciatis sed
+						iSkew started off as an online extension of the parent concept - Insight Job Guru, founded in 2008, which is a consortium of experts from the Training Industry, with over 10 years of proven experience in the fields of Soft Skills Development & Campus Recruitment Training. The consortium focuses on providing training services to Engineering, Arts & MBA colleges. We deliver comprehensive training programmes that address a wide range of requirements and bridge the gap between area of improvement and employability skills. 
+						Through it’s online platform – iSkew Learning, we ensure to bring training programmes available to all on par with quality and content.
 					</div>
 				</div>
-			</b-container>
+			</div>
 		</div>
 	</div>
 </template>
@@ -70,7 +70,7 @@ export default {
 
 .content{
 	height: 100%;
-	padding: 20%;
+	padding: 8.4% 18%;
 }
 
 .contentheading {
@@ -98,7 +98,8 @@ export default {
 		background: #121212;
 	}
 	.infoimage{
-		width: 45vw;
+		width: 40vw;
+		height: auto;
 	}
 
 	.infomember.about.content{
@@ -107,14 +108,14 @@ export default {
 		flex-direction: column;
 		justify-content: center;
 		color: whitesmoke;
-		padding: 16vw 10vw 0 0;
+		padding: 12vw 10vw 0 0;
 	}
 
 	.contentheading{
 		font-size: 4.5vw;
 	}
 	.contenttext{
-		font-size: 2.5vw;
+		font-size: 2vw;
 	}
 	.infocontainer{
 		display: flex;

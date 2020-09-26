@@ -18,7 +18,8 @@
 		</div>
 		<div class="schedulecontent" :class={open:toggled}>
 			<div class="schedulecontentdescription">
-				Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta hic eum magnam quam eos perspiciatis veritatis, natus fugiat, dignissimos enim itaque placeat aperiam sapiente ut nobis vero voluptatem, illo pariatur!
+				Smart work takes you a long way vs hard work. To be smartly working, time management is a critical factor, and the purpose of effective goal setting is to achieve what you want in life in a successful, focused and decisive manner by taking the right actions in a lesser time frame. 
+				Hop along the amazing session with iSkew on Sunday 27th of September
 			</div>
 			<div class="schedulecontentregister">
 				<a :href="formLink">
@@ -186,6 +187,9 @@ export default {
 		padding:6px 0 ;
 		border-radius: 11px;
 		margin-top:10px;
+	}
+	.stateIcon{
+		font-size: 3.2vw;
 	}
 }
 </style>
