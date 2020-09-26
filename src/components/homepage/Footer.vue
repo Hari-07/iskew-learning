@@ -64,8 +64,15 @@ export default {
 	color:white;
 	margin:0 10vw 2.5vw 10vw;
 	display:flex;
+	font-size: 1.8vw;
 	justify-content: space-between;
 }
 
+@media (max-width: 576px) {
+	.footercontactinfo{
+		margin: 0 5vw 20px 5vw;
+		font-size: 3.5vw;
+	}
+}
 
 </style>
