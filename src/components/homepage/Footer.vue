@@ -7,7 +7,7 @@
 			<p class="socialicon">#iskewlearning</p>
 		</div>
 		<div class="brandfooter">
-			<img class="brandfooterlogo" src="@/assets/iskew-white.png" alt="Logo">
+			<img class="brandfooterlogo" src="@/assets/iskew-black.png" alt="Logo">
 		</div>
 		<div class="hrstyle"></div>
 		<div class="footercontactinfo">
