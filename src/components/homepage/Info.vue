@@ -22,7 +22,9 @@
 		</div>
 		<div class="mobileview">
 			<div class="infocontainer">
-				<img class="infoimage" src="@/assets/RK-2.jpg" alt="portrait photo">
+				<div class="imagesizer">
+					<img class="infoimage" src="@/assets/RK-2.jpg" alt="portrait photo">
+				</div>
 				<div class="infomember about content">
 					<div class="contentheading">
 						About iSkew
@@ -47,6 +49,12 @@ export default {
 
 .mobileview {
 	display: none;
+}
+
+.imagesizer{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
 }
 
 .infoimage{
