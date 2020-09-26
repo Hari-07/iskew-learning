@@ -4,7 +4,7 @@
 			<h1 class="bannerquote">
 				Adding Value to <br> your life <span style="color:#0089e2">since 2008</span>
 			</h1>
-			<b-button variant="outline-secondary" class="enrollbutton">
+			<b-button v-scroll-to="'#events' " variant="outline-secondary" class="enrollbutton" @click.prevent>
 				Enroll Now		
 			</b-button>
 		</div>
