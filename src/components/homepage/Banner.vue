@@ -39,7 +39,7 @@ export default {
 .quoteBox{
 	text-align: left;
 	/* min-width: 550px; */
-	margin-top:12vw ;
+	margin-top:10vw ;
 	margin-left: 10%;
 }
 
@@ -52,6 +52,10 @@ export default {
 .enrollbutton {
 	border-color: #111111;
 	color: #111111;
+	font-size: 1.2vw;
+	margin-top: 15px;
+	padding: 10px 30px;
+	border-radius: 11px;
 }
 
 .enrollbutton:hover {
@@ -86,6 +90,11 @@ export default {
 
 	.bannerquote{
 		font-size: 8vw;
+	}
+
+	.enrollbutton{
+		font-size: 4vw;
+		
 	}
 }
 

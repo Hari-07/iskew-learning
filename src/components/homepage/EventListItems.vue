@@ -8,12 +8,13 @@
 			<div class="eventdetails">
 				<div class="eventtitle">{{ title }}</div>
 				<div class="eventsubtext">
-					<div class="eventtrainer">Trainer<strong>: {{ trainer }}</strong></div>
-					<div class="eventtiming">Timing<strong>:{{ time }} </strong></div>
+					<div class="eventtrainer">Instructor:  <strong>{{ trainer }}</strong></div>
+					<div class="eventtiming">Timing:  <strong>{{ time }} </strong></div>
 				</div>
 			</div>
 			<div class="stateIcon" :class={open:toggled}>
-				<b-icon-chevron-down></b-icon-chevron-down>
+				<b-icon-caret-down v-if="toggled" ></b-icon-caret-down>
+				<b-icon-caret-down-fill v-else ></b-icon-caret-down-fill>
 			</div>
 		</div>
 		<div class="schedulecontent" :class={open:toggled}>
@@ -33,13 +34,12 @@
 </template>
 
 <script>
-import { BIconChevronDown } from 'bootstrap-vue'
+import { BIconCaretDownFill,BIconCaretDown } from 'bootstrap-vue'
 
 
 export default {
 	name: 'EventListEntry',
 	props: {
-		index: String,
 		date: String,
 		month: String,
 		title: String,
@@ -48,7 +48,8 @@ export default {
 		formLink: String
 	},
 	components: {
-		BIconChevronDown
+		BIconCaretDownFill,
+		BIconCaretDown
 	},
 	data(){
 		return {
@@ -61,7 +62,8 @@ export default {
 <style>
 
 #eventlistentry {
-	border-bottom: 2px solid #202020;
+	border-bottom: 0.5px solid #202020;
+	margin-top:2vw
 }
 
 .schedulebutton{
@@ -92,6 +94,8 @@ export default {
 .schedulemonth{
 	color: #959595;
 	font-size: 1.05vw;
+	margin-top:2px;
+	letter-spacing: 2.8px;
 }
 
 .eventdetails{
@@ -103,8 +107,9 @@ export default {
 }
 
 .eventtitle{
-	font-size: 2.5vw;
-	line-height: 1.2;
+	font-size: 2vw;
+	margin: 1.3vw 0 0 0;
+	line-height: 0.5;
 }
 
 .eventsubtext {
@@ -113,11 +118,11 @@ export default {
 }
 
 .eventtrainer{
-	font-size: 1.15vw;
+	font-size: 1vw;
 }
 .eventtiming {
 	padding-left:15vw;
-	font-size: 1.15vw;
+	font-size: 1vw;
 }
 
 .stateIcon {
@@ -153,7 +158,7 @@ export default {
 	padding: 0.6vw 2.4vw;
 	background: #111111;
 	color: white;
-	border-radius: 8px;
+	border-radius: 11px;
 	outline: none;
 	border:none;
 }
@@ -166,13 +171,14 @@ export default {
 		font-size: 3.2vw;
 	}
 	.eventtitle{
-		font-size:5vw
+		font-size:4vw;
+		line-height: 1;
 	}
 	.eventtrainer{
 		font-size: 2.5vw;
 	}
 	.eventtiming {
-		padding-left:2.1vw;
+		padding-left:6vw;
 		font-size: 2.5vw;
 	}
 	.schedulecontent{

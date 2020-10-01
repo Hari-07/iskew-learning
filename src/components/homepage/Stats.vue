@@ -1,17 +1,27 @@
 <template>
 	<div class="bluestrip">
-		<div class="stat">
-			<div class="statvalue">12</div>
-			<div class="stattag">Years of experience</div>
-		</div>
-		<div class="stat">
-			<div class="statvalue">250,000</div>
-			<div class="stattag">Students</div>
-		</div>
-		<div class="stat">
-			<div class="statvalue">65</div>
-			<div class="stattag">Colleges</div>
-		</div>
+		<b-container >
+			<b-row>
+				<b-col sm="4">
+					<div class="stat">
+						<div class="statvalue">12</div>
+						<div class="stattag">Years of experience</div>
+					</div>
+				</b-col>
+				<b-col sm="4">
+					<div class="stat">
+						<div class="statvalue">250,000</div>
+						<div class="stattag">Students</div>
+					</div>
+				</b-col>
+				<b-col sm="4">
+					<div class="stat">
+						<div class="statvalue">65</div>
+						<div class="stattag">Colleges</div>
+					</div>
+				</b-col>
+			</b-row>
+		</b-container>
 	</div>
 </template>
 
@@ -29,31 +39,31 @@ export default {
 
 .stat{
 	width: 100%;
-	padding: 30px 0;
+	padding: 90px 0;
 }
 
 .statvalue{
 	font-weight: bold;
 	color: white;
-	font-size: 3vw;
+	font-size: 5vw;
+	line-height: 1;
 }
 
 .stattag{
 	color: #111111;
-	font-weight: bold;
-	font-size: 1.5vw;
+	font-size: 1.2vw;
 }
 
 @media (max-width: 576px){
 	.stat{
-		padding:10px 0;
+		padding:20px 0;
 	}
 
 	.statvalue{
-		font-size: 5.5vw;
+		font-size: 9vw;
 	}
 	.stattag{
-		font-size: 2.5vw;
+		font-size: 3vw;
 	}
 
 }

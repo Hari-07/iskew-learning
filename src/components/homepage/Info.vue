@@ -78,7 +78,7 @@ export default {
 
 .content{
 	height: 100%;
-	padding: 8.4% 18%;
+	padding: 18% 12%;
 }
 
 .contentheading {
@@ -88,8 +88,9 @@ export default {
 }
 
 .contenttext{
-	text-align: justify;
-	font-size: 1.3vw;
+	text-align: left;
+	font-size: 1.1vw;
+	line-height: 1.5;
 }
 
 @media (max-width: 576px){
@@ -124,6 +125,7 @@ export default {
 	}
 	.contenttext{
 		font-size: 2vw;
+		text-align: justify;
 	}
 	.infocontainer{
 		display: flex;

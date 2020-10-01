@@ -41,10 +41,11 @@ export default {
 	background-size: 50%;
 	background-repeat: no-repeat;
 	background-position: bottom right;
+
 }
 #card:hover {
-	transform: scale(1.02);
-	transition-duration: 300ms;
+	transform: scale(1.07);
+	transition-duration: 200ms;
 }
 #card2{
 	height: 100%;
@@ -84,8 +85,8 @@ export default {
 
 .programtitle{
 	text-align: left;
-	margin-left: 15px;
-	font-size: 1.8vw;
+	margin-left: 30px;
+	font-size: 2vw;
 	line-height: 1.2;
 	font-weight: bold;
 }
@@ -96,8 +97,8 @@ export default {
 
 .enrollbuttoncard{
 	text-align: left;
-	margin-left: 15px;
-	padding-top: 16%;
+	margin-left: 30px;
+	padding-top: 10%;
 }
 .cardbutton{
 	background:#FAFAFA;
@@ -120,10 +121,12 @@ export default {
 	}
 
 	.programtitle{
-		font-size:5vw
+		font-size:5vw;
+		margin-left: 15px;
 	}
 	.enrollbuttoncard{
-		padding-top:12%;
+		padding-top:7%;
+		margin-left: 15px;
 	}
 	.cardbutton{
 		font-size: 4vw;

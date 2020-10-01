@@ -4,7 +4,6 @@
 			<a href="https://www.linkedin.com/company/i-skew/mycompany/"><dile-social-icon class="socialicon" icon="linkedin"></dile-social-icon></a>
 			<a href="https://www.instagram.com/i_skew/"><dile-social-icon class="socialicon" icon="instagram"></dile-social-icon></a>
 			<a href="https://www.instagram.com/i_skew/"><dile-social-icon class="socialicon" icon="youtube"></dile-social-icon></a>
-			<p class="socialicon">#iskewlearning</p>
 		</div>
 		<div class="brandfooter">
 			<img class="brandfooterlogo" src="@/assets/iskew-black.png" alt="Logo">
@@ -15,7 +14,7 @@
 				iskewlearning@gmail.com
 			</div>
 			<div>
-				+91 90209 37077
+				
 			</div>
 		</div>
 	</div>
@@ -46,25 +45,26 @@ export default {
 .socialicon {
 	margin: 10px;
 	--dile-social-icon-color:white;
+	--dile-social-icon-size:2vw;
 	color:white;
 }
 
 .brandfooterlogo{
-	width: 150px;
+	width: 100px;
 	margin-top:20px
 }
 
 .hrstyle{
-  margin: 25px 75px;
+  margin: 25px 30px;
 	border:none;
 	height:2px;
 	background: #4A4A4A;
 }
 .footercontactinfo {
 	color:white;
-	margin:0 10vw 2.5vw 10vw;
+	margin:0 30px 2.5vw 30px;
 	display:flex;
-	font-size: 1.8vw;
+	font-size: 1.3vw;
 	justify-content: space-between;
 }
 
@@ -72,6 +72,13 @@ export default {
 	.footercontactinfo{
 		margin: 0 5vw 20px 5vw;
 		font-size: 3.5vw;
+	}
+
+	.socialicon {
+		margin: 10px;
+		--dile-social-icon-color:white;
+		--dile-social-icon-size:8vw;
+		color:white;
 	}
 }
 

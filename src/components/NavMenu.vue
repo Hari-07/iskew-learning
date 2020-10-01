@@ -1,10 +1,10 @@
 <template>
 	<div id="navComponent">
-		<b-navbar toggleable="md" class="nav">
+		<b-navbar toggleable="lg" class="nav">
 			<b-navbar-brand class="mr-auto" href="#">
 				<img class="brand-logo" src="@/assets/iskew-white.png" alt="Logo">
 			</b-navbar-brand>
-			<b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+			<b-navbar-toggle class="hambutton" target="nav-collapse"></b-navbar-toggle>
 			<b-collapse id="nav-collapse" is-nav>
 				<b-navbar-nav class="ml-auto align-items-center" pills>
 					<b-nav-item to="/" class="navlink"> Home </b-nav-item>
@@ -26,7 +26,7 @@ export default {
 <style scoped>
 
 .brand-logo{
-	height:60px;
+	width: 8vw;
 	margin-left: 5vw;
 }
 
@@ -58,4 +58,13 @@ export default {
 	color:white
 }
 
+.hambutton{
+	font-size: 14px;
+}
+
+@media (max-width: 576px){
+	.brand-logo{
+		width: 14vw;
+	}
+}
 </style>

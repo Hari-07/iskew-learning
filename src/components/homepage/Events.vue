@@ -2,6 +2,7 @@
 	<div id="events">
 		<div class= "eventheader">
 			iSkew Learning Programmes
+			<div class="eventheadersubtext">These test series can be accessed via our webportal. Difficulty level of each question varies according to how you perform. Enjoy the test series.</div>
 		</div>
 		<div class="eventcards">
 			<b-container>
@@ -17,7 +18,7 @@
 				iSkew Event Schedule
 			</div>	
 			<div class="eventlistitems">
-				<EventListEntry index=0 date=27 month="SEP" title="Time Management and Effective Goal Setting" trainer="Renjit Keshav" time="05:00 PM to 06:00 PM" formLink="https://forms.gle/tUarmAbB9h7Y6SDo7"/>
+				<EventListEntry date=27 month="SEP" title="Time Management and Effective Goal Setting" trainer="Renjit Keshav" time="5 PM to 6 PM" formLink="https://forms.gle/tUarmAbB9h7Y6SDo7"/>
 			</div>
 		</div>
 	</div>
@@ -45,8 +46,14 @@ export default {
 .eventheader {
 	text-align: left;
 	width: 100%;
-	font-size: 2.5vw;
+	font-size: 3vw;
 	font-weight: bold;
+	line-height: 1.6;
+}
+.eventheadersubtext{
+	font-size: 1vw;
+	font-weight: 400;
+
 }
 
 .eventcard {
@@ -65,7 +72,7 @@ export default {
 .eventlistitems {
 	border: 0.2px solid rgba(0, 0, 0, 0.2);
 	padding: 1vw 3vw;
-	border-radius: 6px;
+	border-radius: 11px;
 	box-shadow: 4px 4px 20px 2px rgba(0, 0, 0, 0.05);
 }
 
@@ -80,6 +87,11 @@ export default {
 		width: 100%;
 		font-size: 5vw;
 		font-weight: bold;
+	}
+
+	.eventheadersubtext{
+		font-size: 3.4vw;
+		text-align: justify;
 	}
 
 	.eventlisttitle {
