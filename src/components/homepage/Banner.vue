@@ -188,7 +188,7 @@ export default {
 	#banner {
 		flex-direction: column;
 		align-items: center;
-		height: 60vw;
+		height: 75vw;
 	}
 
 	.bannerimage {
@@ -229,7 +229,18 @@ export default {
 	}
 
 	.tcssidebar{
-		display: none;
+		flex-direction: row;
+		margin-top:5vw;
+		border-radius: 11px;
+		width: 70vw;
+	}
+
+	.elementimage{
+		height: 6vw;
+	}
+
+	.elementtext{
+		font-size: 1.7vw;
 	}
 }
 
