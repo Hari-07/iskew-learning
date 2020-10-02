@@ -8,8 +8,8 @@
 			<div class="eventdetails">
 				<div class="eventtitle">{{ title }}</div>
 				<div class="eventsubtext">
-					<div class="eventtrainer">Instructor:  <strong>{{ trainer }}</strong></div>
-					<div class="eventtiming">Timing:  <strong>{{ time }} </strong></div>
+					<div class="eventtrainer"><strong>{{ trainer }}</strong></div>
+					<div class="eventtiming"><strong>{{ time }} </strong></div>
 				</div>
 			</div>
 			<div class="stateIcon" :class={open:toggled}>
@@ -19,8 +19,7 @@
 		</div>
 		<div class="schedulecontent" :class={open:toggled}>
 			<div class="schedulecontentdescription">
-				Smart work takes you a long way vs hard work. To be smartly working, time management is a critical factor, and the purpose of effective goal setting is to achieve what you want in life in a successful, focused and decisive manner by taking the right actions in a lesser time frame. 
-				Hop along the amazing session with iSkew on Sunday 27th of September
+				{{ description }}
 			</div>
 			<div class="schedulecontentregister">
 				<a :href="formLink">
@@ -45,7 +44,8 @@ export default {
 		title: String,
 		trainer: String,
 		time: String,
-		formLink: String
+		formLink: String,
+		description: String,
 	},
 	components: {
 		BIconCaretDownFill,
@@ -53,7 +53,7 @@ export default {
 	},
 	data(){
 		return {
-			toggled: true
+			toggled: false
 		}
 	}
 }

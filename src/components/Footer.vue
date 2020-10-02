@@ -13,9 +13,9 @@
 			<div>
 				iskewlearning@gmail.com
 			</div>
-			<div>
+			<!-- <div>
 				
-			</div>
+			</div> -->
 		</div>
 	</div>
 </template>
@@ -65,7 +65,7 @@ export default {
 	margin:0 30px 2.5vw 30px;
 	display:flex;
 	font-size: 1.3vw;
-	justify-content: space-between;
+	justify-content: center;
 }
 
 @media (max-width: 576px) {

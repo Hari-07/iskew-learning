@@ -13,12 +13,13 @@
 				</b-row>
 			</b-container>
 		</div>
-		<div class="eventlist">
+		<div id="#listofevents" class="eventlist">
 			<div class="eventlisttitle">
-				iSkew Event Schedule
+				iSkew TCS Specials
 			</div>	
 			<div class="eventlistitems">
-				<EventListEntry date=27 month="SEP" title="Time Management and Effective Goal Setting" trainer="Renjit Keshav" time="5 PM to 6 PM" formLink="https://forms.gle/tUarmAbB9h7Y6SDo7"/>
+				<EventListEntry date=05 month="OCT" title="TCS Aptitude Question Paper Discussion - Rs.399" trainer="Duration: 8 Hours" time="Daily 5 PM - 6 PM" formLink="https://forms.gle/DMtpXNWiwGLQHFNN9" description="The complete package to make sure you crack the TCS Exams" />
+				<EventListEntry date=02 month="OCT" title="TCS NQT Test Series - Rs.99" trainer="10 Quantitative Papers" time="5 Verbal Papers" formLink="https://forms.gle/SU87s2vx2r14JLWVA" description="You should practice everyday to boost your confidence before TCS NQT Exam. A complimentary E-Book on Personal Interview and Group discussion will be provided as well" />
 			</div>
 		</div>
 	</div>
