@@ -20,6 +20,7 @@
 			<div class="eventlistitems">
 				<EventListEntry date=05 month="OCT" title="TCS Aptitude Question Paper Discussion - Rs.399" trainer="Duration: 8 Hours" time="Daily 5 PM - 6 PM" formLink="https://forms.gle/DMtpXNWiwGLQHFNN9" description="The complete package to make sure you crack the TCS Exams" />
 				<EventListEntry date=02 month="OCT" title="TCS NQT Test Series - Rs.99" trainer="10 Quantitative Papers" time="5 Verbal Papers" formLink="https://forms.gle/SU87s2vx2r14JLWVA" description="You should practice everyday to boost your confidence before TCS NQT Exam. A complimentary E-Book on Personal Interview and Group discussion will be provided as well" />
+				<EventListEntry date=03 month="OCT" title="Why TCS is important for Class of 2021 - FREE" trainer="The biggest recruitment event of 2021" time="5 PM - 6 PM" formLink="https://forms.gle/ku7XFuU8bCnEsTW2A" description="Join us for a comprehensive analysis of the biggest hiring event of this placement season. Limited Seats only, Entry by Invite. " />
 			</div>
 		</div>
 	</div>
