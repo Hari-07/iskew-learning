@@ -15,7 +15,7 @@
 		</div>
 		<div id="#listofevents" class="eventlist">
 			<div class="eventlisttitle">
-				iSkew TCS Specials
+				iSkew TCS Packages
 			</div>	
 			<div class="eventlistitems">
 				<EventListEntry date=05 month="OCT" title="TCS Aptitude Question Paper Discussion - Rs.399" trainer="Duration: 8 Hours" time="Daily 5 PM - 6 PM" formLink="https://forms.gle/DMtpXNWiwGLQHFNN9" description="The complete package to make sure you crack the TCS Exams" />
