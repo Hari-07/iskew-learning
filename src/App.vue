@@ -20,7 +20,7 @@ export default {
 </script>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
 
 #app {
   font-family:'Open Sans', Avenir, Helvetica, Arial, sans-serif;

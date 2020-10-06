@@ -34,10 +34,10 @@
 			</div>
 			<div class="quoteBox">
 				<h1 class="bannerquote">
-					TCS Aptitude <span style="color:white">Question <br> Paper Discussion</span>
+					<span style="color:white">TCS Aptitude Question <br> Paper Discussion <br> <span class="batch2">BATCH II</span></span>
 				</h1>
 				<div class="bannerbuttons">
-					<a href="https://rzp.io/l/iskewtcs">
+					<a href="https://forms.gle/hyd895i85AsS1Vpp7">
 						<button variant="outline-secondary" class="enrollbutton">
 							Enroll Now		
 						</button>
@@ -67,7 +67,7 @@ export default {
 	display: flex;
 	position: relative;
 	height: 35vw;
-	background-image: url('../../assets/TcsBG.png');
+	background-image: url('../../assets/BannerBG.jpg');
 	background-repeat: repeat;
 	background-origin: border-box;
 	background-size: cover;
@@ -82,7 +82,7 @@ export default {
 .quoteBox{
 	text-align: left;
 	/* min-width: 550px; */
-	margin-top:10vw ;
+	margin-top:8vw ;
 	margin-left: 5vw;
 }
 
@@ -92,14 +92,20 @@ export default {
 	font-size: 4vw;
 }
 
+.batch2{
+	font-weight: 300;
+	color:grey;
+	font-size: 3vw;
+}
+
 .bannerbuttons {
 	margin-top: 15px;
 }
 
 .enrollbutton {
-	color: black;
-	border:none;
-	background: white;
+	border:2px solid white;
+	color: white;
+	background: none;
 	font-size: 1.2vw;
 	border-radius: 11px;
 	padding: 0.5vw 30px;
@@ -117,8 +123,8 @@ export default {
 }
 
 .moreprogrammesbutton {
-	border:2px solid #111111;
-	color: #111111;
+	border:2px solid white;
+	color: white;
 	background: none;
 
 	font-size: 1.2vw;
@@ -129,9 +135,8 @@ export default {
 }
 
 .moreprogrammesbutton:hover {
-	color:white;
-	background: #111111;
-	border:2px solid #111111;
+	color:black;
+	background: white;
 }
 
 .moreprogrammesbutton:focus,:active {
@@ -188,7 +193,7 @@ export default {
 	#banner {
 		flex-direction: column;
 		align-items: center;
-		height: 75vw;
+		height: 90vw;
 	}
 
 	.bannerimage {
@@ -206,6 +211,10 @@ export default {
 
 	.bannerquote{
 		font-size: 8vw;
+	}
+
+	.batch2{
+		font-size: 6vw;
 	}
 
 	.enrollbutton{
