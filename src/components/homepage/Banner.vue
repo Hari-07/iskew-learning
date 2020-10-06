@@ -37,7 +37,7 @@
 					TCS Aptitude <span style="color:white">Question <br> Paper Discussion</span>
 				</h1>
 				<div class="bannerbuttons">
-					<a href="https://forms.gle/9dfEafvc1zVAe9U26">
+					<a href="https://rzp.io/l/iskewtcs">
 						<button variant="outline-secondary" class="enrollbutton">
 							Enroll Now		
 						</button>
