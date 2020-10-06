@@ -34,6 +34,7 @@
 			</div>
 			<div class="quoteBox">
 				<h1 class="bannerquote">
+					<span class="b1stats">300+ Paid Registrations for Batch 1<br></span>
 					<span style="color:white">TCS Aptitude Question <br> Paper Discussion <br> <span class="batch2">BATCH II</span></span>
 				</h1>
 				<div class="bannerbuttons">
@@ -82,7 +83,7 @@ export default {
 .quoteBox{
 	text-align: left;
 	/* min-width: 550px; */
-	margin-top:8vw ;
+	margin-top:5vw ;
 	margin-left: 5vw;
 }
 
@@ -96,6 +97,12 @@ export default {
 	font-weight: 300;
 	color:grey;
 	font-size: 3vw;
+}
+
+.b1stats{
+	font-style: italic;
+	font-size: 1.8vw;
+	color: lightgrey;
 }
 
 .bannerbuttons {
@@ -113,8 +120,9 @@ export default {
 }
 
 .enrollbutton:hover {
-	color:white;
+	color:grey;
 	background: #111111;
+	border: 2px solid grey;
 }
 
 .enrollbutton:focus,:active {
@@ -135,8 +143,8 @@ export default {
 }
 
 .moreprogrammesbutton:hover {
-	color:black;
-	background: white;
+	color:grey;
+	background: #111111;
 }
 
 .moreprogrammesbutton:focus,:active {
@@ -160,7 +168,7 @@ export default {
 }
 
 .tcsschedulebutton:hover {
-	color:white;
+	color:grey;
 }
 
 .tcssidebar{
@@ -193,7 +201,7 @@ export default {
 	#banner {
 		flex-direction: column;
 		align-items: center;
-		height: 90vw;
+		height: 100vw;
 	}
 
 	.bannerimage {
@@ -215,6 +223,10 @@ export default {
 
 	.batch2{
 		font-size: 6vw;
+	}
+
+	.b1stats{
+		font-size: 3.6vw;
 	}
 
 	.enrollbutton{
