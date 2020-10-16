@@ -4,7 +4,7 @@
 				<h1 class="bannerquote">
 					<span style="color:#0089e2">Fundamentals of C Programming & Data Structures</span>
 				</h1>
-				<div class="bannersubquote">Oct 19-21, 6 hours</div>
+				<div class="bannersubquote">Oct 19-21, 6 <a href="https://forms.gle/dyYPskeoP8Hidu1i6"><button class="enrollNow">Enroll Now </button></a></div>
 			</div>
 			<img class="bannerimage" src="@/assets/gummy.png">
 	</div>
@@ -53,6 +53,22 @@ export default {
 	font-weight: bold;
 	font-size: 1.8vw;
 	font-style: italic;
+}
+
+.enrollNow {
+	margin-left: 40px;
+	background: none;
+	border: 2px solid black;
+	border-radius: 11px;
+	font-size: 1.5vw;
+	padding: 0.4vw 1.5vw;
+	box-sizing: border-box;
+}
+
+.enrollNow:hover {
+	background: #0089e2;
+	color: whitesmoke;
+	border-color: transparent;
 }
 
 @media (max-width: 576px){

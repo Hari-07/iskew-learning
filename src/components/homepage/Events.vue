@@ -18,7 +18,7 @@
 				iSkew TCS Packages
 			</div>	
 			<div class="eventlistitems">
-				<EventListEntry date=13 month="OCT" title="TCS Aptitude Question Paper Discussion - Rs.399" trainer="Duration: 8 Hours" time="Daily 5 PM - 6 PM" formLink="https://forms.gle/hyd895i85AsS1Vpp7" description="The complete package to make sure you crack the TCS Exams" />
+				<EventListEntry date=19 month="OCT" title="Fundamentals of C Programming and Data Structures - Rs.299" trainer="Duration: 6 Hours" time="Daily 6 PM - 8 PM" formLink="https://forms.gle/dyYPskeoP8Hidu1i6" description="Core IT Jobs are all about the fundamentals. Join us to obtain a strong fundamental base and pave your way to a succesfull career" />
 				<EventListEntry date=02 month="OCT" title="TCS NQT Test Series - Rs.99" trainer="10 Quantitative Papers" time="5 Verbal Papers" formLink="https://forms.gle/SU87s2vx2r14JLWVA" description="You should practice everyday to boost your confidence before TCS NQT Exam. A complimentary E-Book on Personal Interview and Group discussion will be provided as well" />
 			</div>
 		</div>
