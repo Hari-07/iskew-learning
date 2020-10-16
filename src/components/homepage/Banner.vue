@@ -4,7 +4,7 @@
 				<h1 class="bannerquote">
 					<span style="color:#0089e2">Fundamentals of C Programming & Data Structures</span>
 				</h1>
-				<div class="bannersubquote">Oct 19-21, 6 <a href="https://forms.gle/dyYPskeoP8Hidu1i6"><button class="enrollNow">Enroll Now </button></a></div>
+				<div class="bannersubquote">Oct 19-21, 6-8pm <a href="https://forms.gle/dyYPskeoP8Hidu1i6"><button class="enrollNow">Enroll Now </button></a></div>
 			</div>
 			<img class="bannerimage" src="@/assets/gummy.png">
 	</div>
@@ -100,6 +100,11 @@ export default {
 
 	.bannersubquote{
 		font-size: 3.6vw
+	}
+
+	.enrollNow {
+		font-size: 3vw;
+		padding: 0.8vw 3vw;
 	}
 }
 
