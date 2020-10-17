@@ -2,7 +2,7 @@
 	<div id="banner">
 			<div class="quoteBox">
 				<h1 class="bannerquote">
-					<span style="color:#0089e2">Fundamentals of C Programming & Data Structures</span>
+					<span style="color:#0089e2">TCS NQT Technical Training on C Programming</span>
 				</h1>
 				<div class="bannersubquote">Oct 19-21, 6-8pm <a href="https://forms.gle/dyYPskeoP8Hidu1i6"><button class="enrollNow">Enroll Now </button></a></div>
 			</div>
@@ -40,7 +40,7 @@ export default {
 	text-align: left;
 	margin-top:5vw ;
 	margin-left: 8vw;
-	min-width: 35vw;
+	min-width: 37vw;
 }
 
 .bannerquote {
