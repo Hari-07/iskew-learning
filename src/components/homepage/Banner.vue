@@ -9,6 +9,18 @@
 				<div class="bannersubquote2"><span class="batchtag">BATCH III</span> <a href="https://forms.gle/7PTnDbiH5UPnrwQm9"><button class="enrollNow2">Enroll Now </button></a></div>
 			</div>
 		</div>
+		<div class="banner3">
+			<div class ="subbanner">
+				<div class="quoteBox3">
+					<h1 class="bannerquote3">
+						<div class="bannerbranding2">iSkew Learning</div>
+						<span class="bannername"><i>TCS NQT</i></span><span><i>Mock Drill</i></span>
+					</h1>
+					<div class="bannersubquote3">OCTOBER 19 - 24th<a href="https://rzp.io/l/mockdrill"><button class="enrollNow3">Enroll Now </button></a></div>
+					<img src = '../../assets/Playbutton.png'/><span class="banner3vid">TCS NQT Placement Paper with Video Solutions</span>
+				</div>
+			</div>
+		</div>
 		<div class="banner1">
 			<div class="quoteBox">
 				<h1 class="bannerquote">
@@ -29,8 +41,12 @@ export default {
 </script>
 
 <style>
-
+.banner3 img{
+	width: 2vw;
+	margin-right: 1vw;
+}
 .banner1 {
+	color:#000000;
 	display: flex;
 	position: relative;
 	height: 35vw;
@@ -46,6 +62,16 @@ export default {
 	position: relative;
 	height: 35vw;
 	background-image: url('../../assets/Batch3BG.jpg');
+	background-repeat: repeat;
+	background-origin: border-box;
+	background-size: cover;
+	overflow: hidden;
+}
+.banner3{
+	display: flex;
+	position: relative;
+	height: 35vw;
+	background-image: url('../../assets/NQT-Drill.jpg');
 	background-repeat: repeat;
 	background-origin: border-box;
 	background-size: cover;
@@ -71,6 +97,17 @@ export default {
 	margin-left: 8vw;
 	min-width: 37vw;
 }
+.quoteBox3{
+	text-align: left;
+	margin-top:5vw ;
+	margin-left: 8vw;
+	min-width: 37vw;
+}
+.subbanner{
+	width: 100%;
+	background-color: #ffffff;
+	margin: 25px;
+}
 
 .bannerquote {
 	font-weight: bold;
@@ -82,14 +119,24 @@ export default {
 	color: #111111;
 	font-size: 4vw;
 }
-
+.bannerquote3 {
+	font-weight: bold;
+	color: #111111;
+	font-size: 4vw;
+	line-height: 1;
+}
 .bannerbranding {
 	color: #0089e2;
 	font-size: 2vw;
 	font-style: italic;
 	line-height: 1;
 }
-
+.bannerbranding2 {
+	color: #000000;
+	font-size: 2vw;
+	font-style: italic;
+	line-height: 2.5;
+}
 .bannersubquote{
 	font-weight: bold;
 	font-size: 1.8vw;
@@ -100,6 +147,23 @@ export default {
 	font-size: 1.8vw;
 	color: white;
 	margin-left: 29.5vw;
+}
+.bannersubquote3 {
+	font-weight: bold;	
+	font-size: 1.7vw;
+	color:#eb240a;
+	margin-left: 20vw;
+}
+.bannername {
+	margin-right: 5px;
+	padding: 0.5px 15px 2px 0.5px;
+	background:#eb240a;
+	color: #ffffff; 
+}
+.banner3vid{
+	font-size: 2vw; 
+	font-style: italic;
+	font-weight:bold;
 }
 
 .batchtag{
@@ -125,8 +189,27 @@ export default {
 	padding: 0.4vw 1.5vw;
 	box-sizing: border-box;
 }
+.enrollNow3 {
+	margin-left: 40px;
+	background: none;
+	border: 2px solid black;
+	border-radius: 11px;
+	font-size: 1.5vw;
+	padding: 0.4vw 1.5vw;
+	box-sizing: border-box;
+}
 
 .enrollNow:hover {
+	background: #0089e2;
+	color: whitesmoke;
+	border-color: transparent;
+}
+.enrollNow2:hover {
+	background: #0089e2;
+	color: whitesmoke;
+	border-color: transparent;
+}
+.enrollNow3:hover {
 	background: #0089e2;
 	color: whitesmoke;
 	border-color: transparent;
@@ -140,6 +223,11 @@ export default {
 		height: 95vw;
 	}
 	.banner2 {
+		flex-direction: column;
+		align-items: center;
+		height: 80vw;
+	}
+	.banner3 {
 		flex-direction: column;
 		align-items: center;
 		height: 80vw;
@@ -166,9 +254,21 @@ export default {
 		margin-left: 0;
 		margin-bottom: 30px;
 	}
+	.subbanner{
+		height: 90vw;
+		width: 90vw;
+	}
+	.quoteBox3{
+		margin: 20px;
+		text-align: center;
+
+	}
 
 	.bannerbranding{
 		font-size:4vw;
+	}
+	.bannerbranding2{
+		font-size:3.5vw;
 	}
 
 	.bannerquote{
@@ -177,6 +277,9 @@ export default {
 	.bannerquote2{
 		font-size: 8vw;
 	}
+	.bannerquote3{
+		font-size: 7vw;
+	}
 
 	.bannersubquote{
 		font-size: 3.6vw
@@ -184,6 +287,13 @@ export default {
 	.bannersubquote2{
 		margin-left: 36vw;
 		width: 27vw;
+		font-size: 3.6vw;
+		display: flex;
+		flex-direction: column;
+	}
+	.bannersubquote3{
+		margin-left: 20vw;
+		width: 40vw;
 		font-size: 3.6vw;
 		display: flex;
 		flex-direction: column;
@@ -198,6 +308,19 @@ export default {
 		padding: 0.8vw 3vw;
 		margin-top: 3vw;
 		margin-left: 0;
+	}
+	.enrollNow3{
+		font-size: 3vw;
+		padding: 0.8vw 3vw;
+		margin-top: 3vw;
+		margin-left: 0;
+	}
+	.banner3vid{
+		font-size: 4vw;
+	}
+	.banner3 img{
+		width: 4vw;
+		margin-right: 1vw;
 	}
 }
 
