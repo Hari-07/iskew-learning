@@ -10,7 +10,7 @@
 			</div>
 		</div>
 		<div class="banner3">
-			<div class ="subbanner">
+			<div class ="subbanner3">
 				<div class="quoteBox3">
 					<h1 class="bannerquote3">
 						<div class="bannerbranding2">iSkew Learning</div>
@@ -103,7 +103,7 @@ export default {
 	margin-left: 8vw;
 	min-width: 37vw;
 }
-.subbanner{
+.subbanner3{
 	width: 100%;
 	background-color: #ffffff;
 	margin: 25px;
@@ -254,9 +254,9 @@ export default {
 		margin-left: 0;
 		margin-bottom: 30px;
 	}
-	.subbanner{
-		height: 90vw;
-		width: 90vw;
+	.subbanner3{
+		height: 97vw;
+		width: 87vw;
 	}
 	.quoteBox3{
 		margin: 20px;
