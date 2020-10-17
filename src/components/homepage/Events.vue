@@ -19,7 +19,7 @@
 			</div>	
 			<div class="eventlistitems">
 				<EventListEntry date=21 month="OCT" title="TCS NQT Aptitude Training Rs. 99" trainer="3 hours Aptitude Training on Zoom platform" time="60 Questions from High Priority topics" formLink="https://forms.gle/7PTnDbiH5UPnrwQm9" description="You should practice everyday to boost your confidence before TCS NQT Exam. Attend our sessions to improve your chance of clearing the exam." />
-				<EventListEntry date=19 month="OCT" title="TCS NQT Test Series - Rs. 99" trainer="3 TCS NQT Mock Drill papers" time="Video Solutions" formLink="https://rzp.io/l/mockdrill" description = "Attempt our TCS NQT Mock Drill tests and make yourself TCS NQT ready." />
+				<EventListEntry date=19 month="OCT" title="TCS NQT Test Series - Rs. 99" trainer="3 TCS NQT Mock Drill papers" time="Video Solutions" formLink="http://bit.ly/nqtmockdrill" description = "Attempt our TCS NQT Mock Drill tests and make yourself TCS NQT ready." />
 				<EventListEntry date=19 month="OCT" title="TCS NQT Technical Training on C Programming - Rs. 299" trainer="Duration: 6 Hours" time="Daily 6 PM - 8 PM" formLink="https://forms.gle/dyYPskeoP8Hidu1i6" description="Core IT Jobs are all about the fundamentals. Join us to obtain a strong fundamental base and pave your way to a succesfull career" />
 				<EventListEntry date=02 month="OCT" title="TCS NQT Test Series - Rs. 99" trainer="10 Quantitative Papers" time="5 Verbal Papers" formLink="https://forms.gle/SU87s2vx2r14JLWVA" description="You should practice everyday to boost your confidence before TCS NQT Exam. A complimentary E-Book on Personal Interview and Group discussion will be provided as well" />
 			</div>

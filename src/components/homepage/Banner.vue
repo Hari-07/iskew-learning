@@ -16,7 +16,7 @@
 						<div class="bannerbranding2">iSkew Learning</div>
 						<span class="bannername"><i>TCS NQT</i></span><span><i>Mock Drill</i></span>
 					</h1>
-					<div class="bannersubquote3">OCTOBER 19 - 24th<a href="https://rzp.io/l/mockdrill"><button class="enrollNow3">Enroll Now </button></a></div>
+					<div class="bannersubquote3">OCTOBER 19 - 24th<a href="http://bit.ly/nqtmockdrill"><button class="enrollNow3">Enroll Now </button></a></div>
 					<img src = '../../assets/Playbutton.png'/><span class="banner3vid">TCS NQT Placement Paper with Video Solutions</span>
 				</div>
 			</div>
