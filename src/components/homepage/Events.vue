@@ -13,7 +13,7 @@
 				</b-row>
 			</b-container>
 		</div>
-		<div id="#listofevents" class="eventlist">
+		<!-- <div id="#listofevents" class="eventlist">
 			<div class="eventlisttitle">
 				iSkew TCS Packages
 			</div>	
@@ -23,19 +23,19 @@
 				<EventListEntry date=19 month="OCT" title="TCS NQT Technical Training on C Programming - Rs. 299" trainer="Duration: 6 Hours" time="Daily 6 PM - 8 PM" formLink="https://forms.gle/dyYPskeoP8Hidu1i6" description="Core IT Jobs are all about the fundamentals. Join us to obtain a strong fundamental base and pave your way to a succesfull career" />
 				<EventListEntry date=02 month="OCT" title="TCS NQT Test Series - Rs. 99" trainer="10 Quantitative Papers" time="5 Verbal Papers" formLink="https://forms.gle/SU87s2vx2r14JLWVA" description="You should practice everyday to boost your confidence before TCS NQT Exam. A complimentary E-Book on Personal Interview and Group discussion will be provided as well" />
 			</div>
-		</div>
+		</div> -->
 	</div>
 </template>
 
 <script>
 import EventCard from '@/components/homepage/EventCard.vue'
-import EventListEntry from '@/components/homepage/EventListItems.vue'
+// import EventListEntry from '@/components/homepage/EventListItems.vue'
 
 export default {
 	name: 'Events',
 	components:{
 		EventCard,
-		EventListEntry
+		// EventListEntry
 	}
 }
 </script>
